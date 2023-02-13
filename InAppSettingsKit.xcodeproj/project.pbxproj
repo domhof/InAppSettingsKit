@@ -262,7 +262,8 @@
 				AA627D2A19F695F30079AAE8 /* Resources */,
 				E42ADAE01682036500295D85 /* Views */,
 			);
-			path = InAppSettingsKit;
+			name = InAppSettingsKit;
+			path = Sources/InAppSettingsKit;
 			sourceTree = "<group>";
 		};
 		E42ADAAB168202D700295D85 /* InAppSettingsKitTests */ = {
@@ -275,7 +276,8 @@
 				E4EDC5B1168227B800BD3CA9 /* IASKSettingsReaderTests.m */,
 				E42ADAAC168202D700295D85 /* Supporting Files */,
 			);
-			path = InAppSettingsKitTests;
+			name = InAppSettingsKitTests;
+			path = Tests/InAppSettingsKitTests;
 			sourceTree = "<group>";
 		};
 		E42ADAAC168202D700295D85 /* Supporting Files */ = {
@@ -536,6 +538,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				de,

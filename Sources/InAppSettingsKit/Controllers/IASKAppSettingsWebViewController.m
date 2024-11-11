@@ -138,7 +138,7 @@
 	if (![newURL host] || [[newURL host] isEqualToString:[self.url host]]) {
 		return YES;
 	}
-	[[UIApplication sharedApplication] openURL:newURL];
+    [[UIApplication sharedApplication] openURL:newURL options:@{} completionHandler:nil];
 	return NO;
 }
 
